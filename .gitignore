@@ -1,0 +1,17 @@
+# Virtual Environment & Caches
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Heavy Datasets & Model Checkpoints
+data/raw/*
+data/processed/*
+models/*.pth
+temp_*
+!.gitkeep
+
+# Operating System & Editor Settings
+.vscode/
+.idea/
+.DS_Store
